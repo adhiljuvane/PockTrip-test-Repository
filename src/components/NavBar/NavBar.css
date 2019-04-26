@@ -1,0 +1,27 @@
+@media only screen and (min-width: 698px) {
+.navbar{
+    display: flex ;
+    z-index: 500;
+    height: 4.22vw;
+    background-color: #5CDB95 ;
+    -webkit-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    position: fixed;
+    top: 0 ;
+    color: #05386B ;
+    width : 100vw ;
+    align-items: center ;
+    padding: 0 1vw ;
+    flex-direction: row ;
+    justify-content: space-between ;
+}
+
+.navbar .rightContent{
+    display: flex ;
+    flex-direction: row ;
+    width : 20vw ;
+    padding-right: 2vw ;
+    justify-content: space-around ;
+}
+}

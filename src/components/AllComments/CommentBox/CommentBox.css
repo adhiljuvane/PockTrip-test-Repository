@@ -1,0 +1,43 @@
+.commentBox{
+    width : 98vw ;
+    display: flex ;
+    flex-direction: column ;
+    background-color: #EDF5E1 ;
+    color: #05386B ;
+    padding: 1vw ;
+    -webkit-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    margin: 0.8vw 0vw ;
+}
+
+.commentBox .rowOne{
+    width : 98vw ;
+    display: flex ;
+    flex-direction: row ;
+    justify-content:  space-between ;
+}
+
+.commentBox .rowOne .userIcon{
+    border-radius: 1.87vw;
+    height: 4.58vw !important;
+    width: 4.72vw !important ;
+    padding-right: 1vw ;
+}
+
+.commentBox .rowTwo{
+    width : 92vw ;
+    margin : 1vw 0vw ;
+    padding-left: 6vw ;
+    display: flex ;
+    justify-content: flex-start ;
+}
+
+.commentBox .rowThree{
+    width : 92vw ;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-between ;
+    margin : 1vw 0vw ;
+    padding-left: 6vw ;
+}

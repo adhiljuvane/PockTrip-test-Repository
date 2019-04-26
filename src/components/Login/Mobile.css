@@ -1,0 +1,67 @@
+@media only screen and (min-width: 0) and (max-width: 698px) {
+    .login{
+        width: 100vw ;
+        display: flex ;
+        flex-direction: column ;
+        align-items: center ;
+        background-color: #5CDB95 ;
+        -webkit-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+        -moz-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+        box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.26);
+    }
+    
+    .login h2 {
+        color: #05386B ;
+    }
+    
+    .login .columnOne{
+        width: 100vw ;
+        display: flex ;
+        flex-direction: column ;
+        align-items: center ;
+        margin: auto ;
+    }
+    
+    .login input{
+        margin-bottom: 1vw ;
+        width: 80%;
+        height: 8vw ;
+        font-size: 4vw;
+        font-weight: 300;
+        color: #05386B;
+        background-color: white ;
+        box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 0vw 0.15vw 0.312vw 0vw rgba(0, 0, 0, 0.16);
+        border: none;
+        border-radius: 2vw;
+        padding: 1vw;
+        padding-left: 2vw ;
+    }
+    
+    .login .columnOne button{
+        width: 50vw;
+        font-size: 5vw;
+        border-radius: 8vw;
+        border: none;
+        padding: 1vw;
+        background-color:white ;
+        color: #05386B;
+        transition: 0.5s linear;
+        margin: 1vw 0vw;
+    }
+    
+    .login .columnTwo{
+        display: none ;
+        flex-direction: column ;
+        justify-content: space-between ;
+        align-items: center ;
+    }
+    
+    .login .columnThree{
+        width : 100vw ;
+        margin: auto ;
+        display: flex ;
+        justify-content: center ;
+    }
+}

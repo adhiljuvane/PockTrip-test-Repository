@@ -1,0 +1,38 @@
+@media only screen and (min-width: 0) and (max-width: 698px) {
+    .comment-type{
+        margin-top: 14vw ;
+        width : 100vw ;
+        height: 18vw ;
+    }
+    
+    .comment-type .top .userIcon{
+        border-radius: 1.87vw;
+        height: 8.58vw !important;
+        width: 8.72vw !important ;
+        padding-right: 1vw ;
+    }
+    
+    .comment-type .top .sendIcon{
+        height: 5.58vw !important;
+        width: 5.72vw !important ;
+    }
+    
+    .comment-type .top{
+        display: flex ;
+        flex-direction: row ;
+        justify-content: space-between ;
+        padding: 1vw ;
+        align-items: center ;
+    }
+    
+    .comment-type input{
+        width : 80vw ;
+        margin-bottom: 1vw ;
+        height: 12px ;
+        font-size: 3vw;
+        font-weight: 300;
+        color: black;
+        border: none;
+        padding: 1vw;
+    }
+}
